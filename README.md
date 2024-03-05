@@ -25,4 +25,10 @@ A build tool for retro consoles & retro computers
 - Package Manager or package management
   - We do not want to mess with your system packages or installation: wherever possible we will build static binaries from source for our toolchains & toolchain dependencies. emulators/simulators and other tools will be installed into an output/ sandbox directory.
   - If any system installations are ever needed, we will separate them from the rest of the build so that the user can decide how to do them.
-- More TBD 
+- More TBD
+
+## Next
+- Look at c64 assemblers and compilers again
+  - Pick one to try to targt first 
+- Get bazel project & rules & repo bootstrapped
+
